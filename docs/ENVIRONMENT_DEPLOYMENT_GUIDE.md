@@ -120,8 +120,8 @@ You need this `.env` file:
 
 ```env
 # Google OAuth Configuration - Production Ready
-GOOGLE_CLIENT_ID=YOUR_CLIENT_ID_HERE
-GOOGLE_CLIENT_SECRET=YOUR_CLIENT_SECRET_HERE
+GOOGLE_CLIENT_ID=your_google_client_id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=GOCSPX-your_google_client_secret
 GOOGLE_REDIRECT_URI=https://sheets.gopafy.com/backend/auth/callback
 
 # Database Configuration - Hostinger Production

@@ -218,8 +218,8 @@ All critical security and functionality issues are properly handled.
 **Issue:** `.env` file contains actual credentials
 
 ```dotenv
-GOOGLE_CLIENT_ID=YOUR_CLIENT_ID_HERE
-GOOGLE_CLIENT_SECRET=YOUR_CLIENT_SECRET_HERE
+GOOGLE_CLIENT_ID=your_google_client_id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=GOCSPX-your_google_client_secret
 JWT_SECRET=your_super_secret_jwt_key_here_change_this_in_production
 ```
 
