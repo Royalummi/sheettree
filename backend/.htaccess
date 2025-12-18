@@ -1,0 +1,10 @@
+# Backend Root .htaccess - Redirect to public folder
+RewriteEngine On
+
+# Handle backend API requests - redirect everything to public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/$1 [L,QSA]
+
+# Ensure index.php in public is accessible
+DirectoryIndex public/index.php
