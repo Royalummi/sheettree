@@ -1,0 +1,19 @@
+# robots.txt for SheetTree
+# https://sheets.gopafy.com
+
+User-agent: *
+Allow: /
+Allow: /landing
+Allow: /login
+Allow: /privacy
+Allow: /terms
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /profile
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://sheets.gopafy.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 10

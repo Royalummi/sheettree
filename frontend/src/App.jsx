@@ -11,6 +11,7 @@ import TokenExpiryModal from "./components/Auth/TokenExpiryModal";
 
 // Pages
 import HomePage from "./pages/Home/HomePage";
+import LandingPage from "./pages/Landing/LandingPage";
 import Login from "./pages/Auth/Login";
 import AuthCallback from "./pages/Auth/AuthCallback";
 import Dashboard from "./pages/Dashboard/Dashboard";
@@ -105,11 +106,12 @@ function App() {
             isAuthenticated ? (
               <Navigate to="/dashboard" replace />
             ) : (
-              <HomePage />
+              <LandingPage />
             )
           }
         />
         <Route path="/home" element={<HomePage />} />
+        <Route path="/landing" element={<LandingPage />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsOfService />} />
         <Route
